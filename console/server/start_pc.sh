@@ -1,0 +1,1 @@
+node server.js --dummyHardware true

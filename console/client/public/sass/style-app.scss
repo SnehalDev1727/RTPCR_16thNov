@@ -1,0 +1,34 @@
+@import 'var-app.scss';
+
+@import 'style.scss';
+@import 'blocks/header.scss';
+@import 'blocks/protocol.scss';
+@import 'blocks/protocol-editor.scss';
+@import 'blocks/protocol-summary.scss';
+@import 'blocks/outline.scss';
+@import 'blocks/experiment-monitor.scss';
+body {
+}
+
+.main {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hidden-app {
+  display:none;
+}
+.plate-config {
+  &__section-title {
+    
+  }
+  &__section {
+    border: 1px solid red;
+    &--layout {
+    }
+    &--detail {
+    }
+    &--dilution-series {
+    }
+  }
+}
